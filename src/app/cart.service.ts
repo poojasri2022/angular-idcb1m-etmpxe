@@ -21,4 +21,9 @@ export class CartService {
       '/assets/shipping.json'
     );
   }
+  clearCart() {
+    // emptying the cart items
+    this.items = [];
+    return this.items;
+  }
 }
